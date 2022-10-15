@@ -1,22 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Hello World</h1>
+        <small>REACT_APP_CLIENT_ID is <b>{process.env.REACT_APP_CLIENT_ID}</b> . </small>
+        <small>REACT_APP_CLIENT_SECRET is <b>{process.env.REACT_APP_CLIENT_SECRET}</b> . </small>
       </header>
     </div>
   );
