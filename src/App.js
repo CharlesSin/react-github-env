@@ -1,4 +1,3 @@
-
 import './App.css';
 
 function App() {
@@ -8,6 +7,8 @@ function App() {
         <h1>Hello World</h1>
         <small>REACT_APP_CLIENT_ID is <b>{process.env.REACT_APP_CLIENT_ID}</b> . </small>
         <small>REACT_APP_CLIENT_SECRET is <b>{process.env.REACT_APP_CLIENT_SECRET}</b> . </small>
+        <small>REACT_APP_INSTAGRAM_ACCESS_TOKEN is <b>{process.env.REACT_APP_INSTAGRAM_ACCESS_TOKEN}</b> . </small>
+        <small>REACT_APP_SMTP_SECURE_TOKEN is <b>{process.env.REACT_APP_SMTP_SECURE_TOKEN}</b> . </small>
       </header>
     </div>
   );
