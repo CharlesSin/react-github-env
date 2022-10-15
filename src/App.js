@@ -9,6 +9,7 @@ function App() {
         <small>REACT_APP_CLIENT_SECRET is <b>{process.env.REACT_APP_CLIENT_SECRET}</b> . </small>
         <small>REACT_APP_INSTAGRAM_ACCESS_TOKEN is <b>{process.env.REACT_APP_INSTAGRAM_ACCESS_TOKEN}</b> . </small>
         <small>REACT_APP_SMTP_SECURE_TOKEN is <b>{process.env.REACT_APP_SMTP_SECURE_TOKEN}</b> . </small>
+        <h2>Hello World</h2>
       </header>
     </div>
   );

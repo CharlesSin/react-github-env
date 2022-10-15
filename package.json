@@ -1,6 +1,7 @@
 {
   "name": "react-github-env",
   "version": "0.2.0",
+  "homepage": "https://charlesSin.github.io/react-github-env",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
